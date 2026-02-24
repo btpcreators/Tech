@@ -71,7 +71,7 @@ a {
 }
 
 .shape-1 {
-  width: 500px;
+  width: 50px;
   height: 500px;
   background: var(--accent-1);
   top: -100px;
@@ -79,7 +79,7 @@ a {
 }
 
 .shape-2 {
-  width: 400px;
+  width: 40px;
   height: 400px;
   background: var(--accent-2);
   top: 300px;
@@ -89,7 +89,7 @@ a {
 }
 
 .shape-3 {
-  width: 600px;
+  width: 60px;
   height: 600px;
   background: var(--accent-3);
   bottom: -200px;
@@ -723,4 +723,5 @@ footer {
     text-align: center;
   }
 }
+
 
