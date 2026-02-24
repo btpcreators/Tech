@@ -1,4 +1,4 @@
-/* CSS Variables for Modern Aesthetics */
+8/* CSS Variables for Modern Aesthetics */
 :root {
   /* Color Palette */
   --bg-color: #0d0c13;
@@ -214,12 +214,12 @@ main {
 
 /* Hero Section */
 .hero {
-  min-height: 100vh;
+  min-height: 42vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 50px;
-  padding-top: 100px;
+  padding-top: 90px;
 }
 
 .hero-content {
@@ -723,5 +723,6 @@ footer {
     text-align: center;
   }
 }
+
 
 
