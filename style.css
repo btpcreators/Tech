@@ -1,24 +1,24 @@
 8/* CSS Variables for Modern Aesthetics */
 :root {
   /* Color Palette */
-  --bg-color: #0d0c13;
-  --text-primary: #ffffff;
-  --text-secondary: #a09eb5;
-  --accent-1: #6a1ced;
-  --accent-2: #fb2c88;
-  --accent-3: #21cedc;
+  -bg-color: #0d0c13;
+  -text-primary: #ffffff;
+  -text-secondary: #a09eb5;
+  -accent-1: #6a1ced;
+  -accent-2: #fb2c88;
+  -accent-3: #21cedc;
 
   /* Glassmorphism settings */
-  --glass-bg: rgba(255, 255, 255, 0.03);
-  --glass-border: rgba(255, 255, 255, 0.08);
-  --glass-blur: 16px;
+  -glass-bg: rgba(255, 255, 255, 0.03);
+  -glass-border: rgba(255, 255, 255, 0.08);
+  -glass-blur: 16px;
 
   /* Typography */
-  --font-heading: 'Outfit', sans-serif;
-  --font-body: 'Inter', sans-serif;
+  -font-heading: 'Outfit', sans-serif;
+  -font-body: 'Inter', sans-serif;
 
   /* Layout */
-  --max-width: 1200px;
+  -max-width: 1200px;
 }
 
 /* Reset & Global */
@@ -33,9 +33,9 @@ html {
 }
 
 body {
-  font-family: var(--font-body);
-  background-color: var(--bg-color);
-  color: var(--text-primary);
+  font-family: var(-font-body);
+  background-color: var(-bg-color);
+  color: var(-text-primary);
   line-height: 1.6;
   overflow-x: hidden;
   position: relative;
@@ -43,7 +43,7 @@ body {
 
 /* Helper Classes */
 .highlight {
-  color: var(--accent-3);
+  color: var(-accent-3);
 }
 
 .gradient-text {
@@ -73,7 +73,7 @@ a {
 .shape-1 {
   width: 30px;
   height: 500px;
-  background: var(--accent-1);
+  background: var(-accent-1);
   top: -100px;
   left: -200px;
 }
@@ -81,7 +81,7 @@ a {
 .shape-2 {
   width: 20px;
   height: 400px;
-  background: var(--accent-2);
+  background: var(-accent-2);
   top: 300px;
   right: -100px;
   animation-duration: 20s;
@@ -91,7 +91,7 @@ a {
 .shape-3 {
   width: 20px;
   height: 600px;
-  background: var(--accent-3);
+  background: var(-accent-3);
   bottom: -200px;
   left: 20%;
   opacity: 0.4;
@@ -723,6 +723,7 @@ footer {
     text-align: center;
   }
 }
+
 
 
 
