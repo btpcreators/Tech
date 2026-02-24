@@ -72,7 +72,7 @@ a {
 
 .shape-1 {
   width: 20px;
-  height: 500px;
+  height: 50px;
   background: var(--accent-1);
   top: -100px;
   left: -200px;
@@ -80,7 +80,7 @@ a {
 
 .shape-2 {
   width: 10px;
-  height: 400px;
+  height: 40px;
   background: var(--accent-2);
   top: 300px;
   right: -100px;
@@ -90,7 +90,7 @@ a {
 
 .shape-3 {
   width: 10px;
-  height: 600px;
+  height: 60px;
   background: var(--accent-3);
   bottom: -200px;
   left: 20%;
@@ -214,7 +214,7 @@ main {
 
 /* Hero Section */
 .hero {
-  min-height: 40vh;
+  min-height: 42vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -723,7 +723,4 @@ footer {
     text-align: center;
   }
 }
-
-
-
 
