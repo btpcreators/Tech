@@ -138,6 +138,7 @@ a {
 }
 
 .logo {
+  display: flex;
   font-family: var(--font-heading);
   font-size: 1.5rem;
   font-weight: 800;
@@ -722,3 +723,4 @@ footer {
     text-align: center;
   }
 }
+
