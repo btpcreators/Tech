@@ -71,7 +71,7 @@ a {
 }
 
 .shape-1 {
-  width: 500px;
+  width: 20px;
   height: 500px;
   background: var(--accent-1);
   top: -100px;
@@ -79,7 +79,7 @@ a {
 }
 
 .shape-2 {
-  width: 400px;
+  width: 10px;
   height: 400px;
   background: var(--accent-2);
   top: 300px;
@@ -89,7 +89,7 @@ a {
 }
 
 .shape-3 {
-  width: 600px;
+  width: 10px;
   height: 600px;
   background: var(--accent-3);
   bottom: -200px;
@@ -213,7 +213,7 @@ main {
 
 /* Hero Section */
 .hero {
-  min-height: 100vh;
+  min-height: 43vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -721,4 +721,5 @@ footer {
     flex-direction: column;
     text-align: center;
   }
+
 }
